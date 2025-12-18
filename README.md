@@ -44,9 +44,9 @@ graph TD
     TP -->|Executes| H2
     TP -->|Executes| H3
 
-    H1 <-->|Write (Lock)| RW
-    H2 <-->|Read (Lock)| RW
-    H3 <-->|Write (Lock)| RW
+    H1 <-->|"Write (Lock)"| RW
+    H2 <-->|"Read (Lock)"| RW
+    H3 <-->|"Write (Lock)"| RW
     RW <-->|Synchronized Access| F
 ```
 
